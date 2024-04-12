@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from '@storybook/react';
+
 import BaseTemplate, { IBaseTemplate } from './BaseTemplate';
 import { mockBaseTemplateProps } from './BaseTemplate.mocks';
 
@@ -6,9 +6,9 @@ export default {
     title: 'templates/BaseTemplate',
     component: BaseTemplate,
     argTypes: {},
-} as ComponentMeta<typeof BaseTemplate>;
+} as any;
 
-const Template: ComponentStory<typeof BaseTemplate> = (args) => (
+const Template: any = (args:any) => (
     <BaseTemplate {...args} />
 );
 
