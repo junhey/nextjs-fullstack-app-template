@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/junhey/nextjs-fullstack-app-template",
   "engines": {
-    "node": ">=14"
+    "node": ">=18.x"
   },
   "version": "0.1.0",
   "private": true,
